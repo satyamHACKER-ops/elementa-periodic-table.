@@ -124,3 +124,47 @@ a {
         border-radius: 12px;
     }
 }
+/* =========================================
+   ELEMENTA PAGE CONTENT
+   ========================================= */
+
+main {
+    padding: 20px 0 40px;
+}
+
+main section {
+    padding: 28px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+}
+
+main h2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+main section p {
+    color: var(--muted);
+    font-size: 15px;
+}
+
+/* =========================================
+   SMALL SCREEN IMPROVEMENTS
+   ========================================= */
+
+@media (max-width: 700px) {
+
+    main {
+        padding-top: 10px;
+    }
+
+    main section {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    main h2 {
+        font-size: 23px;
+    }
+   }
